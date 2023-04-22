@@ -6,4 +6,4 @@ echo RUNCRUD BUILD has errors – breaking work
 goto fail
 
 :runurl
-start chrome http://localhost:8080/crud/v1/task/tasks
+start chrome http://localhost:8080/crud/v1/task/getTasks
