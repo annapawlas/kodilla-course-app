@@ -38,7 +38,7 @@ public class Mail {
         }
     }
 
-    private Mail(final String mailTo, final String toCc, final String subject, final String message) {
+    public Mail(final String mailTo, final String toCc, final String subject, final String message) {
         this.mailTo = mailTo;
         this.toCc = toCc;
         this.subject = subject;
