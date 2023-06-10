@@ -16,4 +16,6 @@ public class TrelloConfig {
     private String trelloToken;
     @Value("${trello.app.user}")
     private String trelloUser;
+
+
 }
