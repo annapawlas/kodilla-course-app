@@ -44,7 +44,7 @@ public class TrelloServiceTestSuite {
     @Test
     public void testCreateTrelloCard() {
         //Given
-        CreatedTrelloCardDto createdCard = new CreatedTrelloCardDto("1", "card_name", "url", new Badges());
+        CreatedTrelloCardDto createdCard = new CreatedTrelloCardDto("1", "card_name", "url");
         TrelloCardDto card = new TrelloCardDto("card_name", "description", "pos", "1");
 
         when(trelloClient.createNewCard(card)).thenReturn(createdCard);
